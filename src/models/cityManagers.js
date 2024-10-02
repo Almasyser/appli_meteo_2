@@ -5,7 +5,6 @@ class cityManagers extends AbstractManager{
       table: "cities"
     })
   }
-
   modify(cityId, el) {
     const keys = Object.keys(el);
     const values = Object.values(el);

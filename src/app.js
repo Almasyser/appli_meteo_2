@@ -1,9 +1,7 @@
 require("dotenv").config();
 const cors = require("cors");
-
 // create express app
 const express = require("express");
-
 const app = express();
 const router = require("./router");
 // use some application-level middlewares

@@ -1,5 +1,4 @@
 const models = require("../models");
-
 // récupérer l'ensemble des brands OK
 const getCities = (req, res) => {
   models.cities

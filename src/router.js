@@ -1,5 +1,4 @@
 const express = require("express");
-
 const router = express.Router();
 /* ---- CITIES ROUTES ---- */
 const citiesControllers = require("./controllers/cityControllers");
@@ -13,5 +12,4 @@ router.post("/addcities", citiesControllers.addCity);
 router.put("/updatecities/:city_id", citiesControllers.updateCity);
 // supprimer
 router.delete("/deletecities/:city_id", citiesControllers.deleteCity);
-
 module.exports = router;
